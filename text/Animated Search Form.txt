@@ -1,0 +1,15 @@
+Step 1) Add HTML:
+Example
+<input type="text" name="search" placeholder="Search..">
+Step 2) Add CSS:
+Example
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+} 
